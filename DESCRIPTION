@@ -1,0 +1,34 @@
+Package: AZStanProject
+Type: Package
+Title: Stan Project for survival analysis with genomic and transcriptomic data
+Version: 0.1.0
+Authors@R: person("Carlos", "Traynor", email = "carlos.serra91@gmail.com", role = c("aut", "cre"))
+URL: https://github.com/csetraynor/AZ_StanProject
+BugReports: https://github.com/csetraynor/AZ_StanProject/issues
+Description: Contains sample data & vignettes for Stan intro material & applied models
+License: GPL-3
+LazyData: TRUE
+Suggests:
+    knitr,
+    rmarkdown,
+    assertthat,
+    cgdsr,
+    dplyr,
+    ggfortify,
+    ggplot2,
+    gridExtra,
+    httr,
+    purrr,
+    readr,
+    rstan,
+    shinystan,
+    survival,
+    tidyr
+VignetteBuilder: knitr
+RoxygenNote: 6.0.1
+SystemRequirements: C++11, clang++
+Imports:
+    rstanarm,
+    rstan,
+    shinystan,
+    loo

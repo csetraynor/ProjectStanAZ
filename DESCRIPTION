@@ -1,4 +1,4 @@
-Package: AZStanProject
+Package: ProjectStanAZ
 Type: Package
 Title: Stan Project for survival analysis with genomic and transcriptomic data
 Version: 0.1.0
